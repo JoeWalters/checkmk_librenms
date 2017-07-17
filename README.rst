@@ -1,9 +1,17 @@
-# checkmk_librenms
+==============
+LibreNMS
+==============
 
 Overview
-===
-Simple formula for deploying check_mk and /usr/bin/distro to be used with LibreNMS
-This has only been tested with CentOS 6 & 7.
+========
+
+https://uwnetid.sharepoint.com/sites/ischool/units/it/team/ITWiki/salt-librenms.aspx
+
+This is a Salt_ formula for installing check_mk to be used as an agent
+with librenms monitoring software. This also installs a "distro" 
+script that is used by snmp. Presently, this formula has been 
+configured for CentOS 6 & 7.
+
 
 Meta
 ====
